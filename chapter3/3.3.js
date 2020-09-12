@@ -10,4 +10,4 @@ let countChar = (str, char) => { //Объявляем функцию с пара
     return counter; //Возвращаем результат
 }
 
-console.log(countChar(+prompt('Введите строку'), +prompt('Введите символ для подсчёта')));
+console.log(countChar(prompt('Введите строку'), prompt('Введите символ для подсчёта')));
